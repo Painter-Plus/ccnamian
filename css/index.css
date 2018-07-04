@@ -1,0 +1,2069 @@
+@charset "utf-8";
+*{
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+}
+.boxbig {
+	width:100%;
+	height:100%;
+	background-size:cover;
+	background-size: 100% 100%;
+	background-image:url(../img/fy_indexBg.jpg);
+	position: absolute;
+	overflow:hidden;
+}
+.box {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-size: 100% 100%;
+	background-image: url(../img/fy_indexBg.jpg);
+	position: absolute;
+	overflow: hidden;
+	display: block;
+}
+#b2{
+	display:block;
+	position:relative;
+	}
+.box .top {
+	position: relative;
+	height: 65%;
+	width: 100%;
+}
+.box .top .butt {
+	position: relative;
+}
+.box .butt .bt2 {
+	position: absolute;
+	height: 322px;
+	width: 640px;
+	left: 0px;
+	bottom: 0px;
+	z-index: 99;
+}
+.box .butt .bt3 {
+}
+
+.box .butt .bt2 .bt22 {
+	position: absolute;
+}
+
+.box .butt .ruy {
+	
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 999;
+	width: 257px;
+	height: 437px;
+	background:url(../img/fy_Pp0.png);
+	-webkit-animation:yi 1s steps(2) infinite;
+	background-repeat: no-repeat;
+}
+
+	
+
+@-webkit-keyframes yi{
+100%{
+	 background-position: -514px 0;
+
+	}	
+
+}
+
+.box .butt .bt3 {
+	position: absolute;
+	height: 194px;
+	width: 640px;
+	bottom: 350px;
+	left: 80px;
+}
+.box .butt .kshi img {
+
+}
+.box .butt .kshi {
+	position: absolute;
+	height: 110px;
+	width: 440px;
+	left: 90px;
+	bottom: 400px;
+}
+.box .butt .kashi1 {
+	position: absolute;
+	left: 350px;
+	bottom: 400px;
+}
+.box .box1 .bac {
+	position: absolute;
+	clip: rect(0px,auto,auto,0px);
+	right: -15px;
+	animation: 0.6s rotatefresh 1;
+}
+@keyframes rotatefresh {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(720deg);
+        transition-duration: 0.6s;
+        transition: 0.6s;
+    }
+}
+.box .box1 .bac1 {
+	position: absolute;
+	clip: rect(0px,auto,auto,0px);
+	z-index: 1;
+	left: 20px;
+}
+.box .box1 .bac11 {
+	position: absolute;
+	clip: rect(0px,auto,auto,0px);
+	bottom: 0px;
+	z-index: 1;
+	left: 50px;
+	
+}
+.box .box1 .bac11,.bac3,#i9,.kashi1,.boxbig #b2 .boxa22{
+	  -webkit-animation: scaleDraw 0.5s ease-in-out infinite;
+}
+.bt3,#pic2{
+	-webkit-animation: go 1s ease-in-out alternate infinite;
+   -moz-animation: go 1s ease-in-out alternate infinite;
+   animation: go 1s ease-in-out alternate infinite;
+}
+@keyframes go {
+  
+    100% {
+       -webkit-transform: rotate(5deg);
+       -webkit-transform-origin: top center;
+       -moz-transform: rotate(5deg);
+       -moz-transform-origin: top center;
+       transform: rotate(5deg);
+       transform-origin: top center;
+    }
+}
+
+@keyframes scaleDraw {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(1);  /*开始为原始大小*/
+            }
+            25%{
+                transform: scale(0.4); /*放大1.1倍*/
+            }
+            50%{
+                transform: scale(1);
+            }
+            75%{
+                transform: scale(0.4);
+            }
+        }
+.box #i3 #pic17 {
+	top: 20px;
+}
+
+.box .box1 #i9 {
+	left: 230px;
+	height: 40px;
+	width: 100px;
+	top: 10px;
+}
+.box #i2 {
+	margin-left: 20px;
+}
+.box #i3 {
+	margin-right: 30px;
+}
+.box #i4 {
+	margin-right: 30px;
+}
+.box .box1 .bac2 {
+	position: absolute;
+	clip: rect(0px,auto,auto,0px);
+	right: 95px;
+}
+.box #i4 {
+	margin-left: 35px;
+}
+.box .box1 #pic2 {
+	height: 80px;
+	width: 80px;
+}
+
+
+.box .box1 .bac3 {
+	position: absolute;
+	clip: rect(auto,auto,auto,auto);
+	right: 0px;
+}
+
+
+.box .box1 {
+	height: 78px;
+	width: 496px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+}
+.boxbig #b2 .boxa1 {
+	position: absolute;
+	top: 30px;
+	left: 50px;
+}
+.boxbig #b2 .boxa5 {
+	position: absolute;
+	top: 500px;
+	left: 0px;
+	right: 0px;
+}
+.boxbig #b2 .boxa4 {
+	position: absolute;
+	left: 0px;
+	top: 360px;
+	right: 0px;
+}
+
+.boxbig #b2 .boxa3 {
+	position: absolute;
+	left: 50px;
+	top: 214px;
+}
+.boxbig #b2 .boxa8 {
+	position: absolute;
+	left: 100px;
+    bottom: 300px;
+}
+.boxbig #b2 .boxa9 {
+	position: absolute;
+	left: 150px;
+    bottom: 180px;
+}
+.boxbig #b2 .boxa10 {
+	position: absolute;
+	left: 140px;
+    bottom: 100px;
+	
+}
+
+
+.boxbig #b2 .boxa2 {
+	position: absolute;
+	top: 10px;
+	left: 300px;
+}
+.boxbig #b2 .boxa22 {
+	position: absolute;
+	top: 30px;
+	left: 230px;
+}
+.boxbig #b2 .boxa7 {
+	position: absolute;
+	height: 474px;
+	width: 332px;
+	bottom: 0px;
+	right: 0px;
+	background-image:url(../img/fy_Pp3.png);
+	-webkit-animation:gif 1s steps(2) infinite;
+	background-repeat: no-repeat;
+}
+@-webkit-keyframes 
+gif{
+100%{
+	 background-position: -664px 0;
+
+	}	
+
+}
+.boxbig #b2 .boxatext {
+	position: absolute;
+	height: 50px;
+	width: 50%;
+	left: 150px;
+	top: 250px;
+}
+.boxbig #b2 .boxc1 {
+	background-image: url(../img/fy_Pp.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 434px;
+	width: 320px;
+	left: 0px;
+	bottom: 0px;
+	-webkit-animation:gif 1s steps(2) infinite;
+}
+.boxbig #b2 #imgs1 ,.boxbig #b2 #imgs2{
+ -webkit-animation: scaleDraw1 1s ease-in-out ;
+ }
+@keyframes scaleDraw1 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0.5);  /*开始为原始大小*/
+            }
+           
+            100%{
+                transform: scale(1);
+            }
+        }
+
+
+
+.boxbig #b2 .boxatext #test {
+	height: 50px;
+	width: 100%;
+	font-size: 35px;
+	color: #000;
+	background-color: #FFF;
+	border:none;
+}
+.boxbig #b2 .boxc2 , {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	
+}
+
+.boxbig #b2 .boxc3 {
+	position: absolute;
+	right: 0px;
+	bottom: 80px;
+}
+
+
+
+
+
+
+.boxbig #b2 .boxa6 {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+.boxbig #b2 .boxsss ,.boxd5 .boxsss{
+	position: absolute;
+	height: 230px;
+	width: 300px;
+	bottom: 200px;
+	right: 50px;
+	-webkit-animation: scaleDraw2 5s ease-in-out ;
+}
+@keyframes 
+scaleDraw2 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0);  /*开始为原始大小*/
+            }
+           
+            100%{
+                transform: scale(1);
+            }
+        }
+
+
+ .boxa1,.boxa2,.boxa8,.boxa9,.boxa10,.boxa6,.boxa4,.boxa5,.bf1,.bf3,.bf4,.bf5,.miuxi{
+	-webkit-animation: go 1s ease-in-out alternate infinite;
+   -moz-animation: go 1s ease-in-out alternate infinite;
+   animation: bai 0.5s ease-in-out alternate infinite;
+}
+@keyframes bai {
+  
+    100% {
+       -webkit-transform: rotate(5deg);
+       -webkit-transform-origin: top center;
+       -moz-transform: rotate(5deg);
+       -moz-transform-origin: top center;
+       transform: rotate(5deg);
+       transform-origin: top center;
+    }
+}
+.boxbig #b2 .boxc11 {
+	background-image: url(../img/fy_Pp4.png);
+	position: absolute;
+	height: 424px;
+	width: 402px;
+	left: 0px;
+	bottom: 0px;
+	background-repeat: no-repeat;
+	-webkit-animation:gif1 1s steps(2) infinite;
+}
+@-webkit-keyframes 
+gif1{
+100%{
+	 background-position: -804px 0;
+
+	}	
+
+}
+.boxbig #b2 .boxsss11 {
+	position: absolute;
+	height: 112px;
+	width: 154px;
+	bottom: 180px;
+	right: 35px;
+	-webkit-animation: scaleDraw3 0.2s ease-in-out infinite;
+}
+.boxbig #b2 .boxsss112 {
+	position: absolute;
+	height: 112px;
+	width: 154px;
+	bottom: 180px;
+	right: 75px;
+	-webkit-animation: scaleDraw3 0.2s ease-in-out infinite;
+}
+.boxbig #b2 .boxsss113 {
+	position: absolute;
+	height: 112px;
+	width: 154px;
+	bottom: 180px;
+	right: 50px;
+	-webkit-animation: scaleDraw3 0.2s ease-in-out infinite;
+}
+@keyframes scaleDraw3 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0.5);  /*开始为原始大小*/
+            }
+           
+            100%{
+                transform: scale(1);
+            }
+        }
+.boxd5 {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.boxd5 .bf1 {
+	position: absolute;
+	left: 200px;
+	top: 30px;
+}
+.boxd5 .bf2 {
+	position: absolute;
+	top: 200px;
+	right: 30px;
+}
+.boxd5 .bf7 {
+	background-image: url(../img/fy_Pp5.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 422px;
+	width: 307px;
+	bottom: 0px;
+	left: 167px;
+	-webkit-animation:gifq 0.01s steps(2) infinite;
+}
+@-webkit-keyframes 
+
+gifq{
+100%{
+	 background-position: -614px 0;
+
+	}	
+
+}
+.boxd5 .bf5 {
+	position: absolute;
+	right: 0px;
+	bottom: 300px;
+}
+.boxd5 .bf6 {
+	position: absolute;
+	left: 100px;
+	bottom: 390px;
+}
+.boxd5 .bf3 {
+	position: absolute;
+	left: 0px;
+	top: 400px;
+}
+.boxd5 .bf2text {
+	height: 60px;
+	width: 50%;
+	position: absolute;
+	left: 120px;
+	top: 250px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.boxd5 .miuxi {
+	position: absolute;
+	top: 100px;
+	right: 250px;
+}
+
+.boxd5 .bf2text #test1 {
+	height: 60px;
+	width: 100%;
+	font-size: 40px;
+	border:none;
+}
+
+
+.boxd5 .bf4 {
+	position: absolute;
+	left: 0px;
+	top: 542px;
+}
+.boxd5 .bf71 {
+	position: absolute;
+	height: 434px;
+	width: 340px;
+	left: 0px;
+	bottom: 0px;
+	z-index: 999;
+	background-image: url(../img/fy_Pp6.png);
+	background-repeat: no-repeat;
+	-webkit-animation:gifq 0.8s steps(2) infinite;
+}
+@-webkit-keyframes 
+gifq{
+100%{
+	 background-position: -680px 0;
+
+	}	
+
+}
+.boxbig .boxd5 .boxsss .zxq {
+	z-index: 99;
+	position: absolute;
+	bottom: 60px;
+	left: 25px;
+}
+.boxbig .boxd5 .c1 {
+	background-image: url(../img/fy_Pp7.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 321px;
+	width: 340px;
+	left: 150px;
+	top: 80px;
+	-webkit-animation:gifq1 0.8s steps(2) infinite;
+}
+@-webkit-keyframes gifq1{
+100%{
+	 background-position: -680px 0;
+
+	}	
+
+}
+
+.boxbig .boxd5 .c2 {
+	position: absolute;
+	left: 20px;
+	top: 400px;
+}
+.boxbig .boxd5 .c3 {
+	position: absolute;
+	left: 02px;
+    top: 500px;
+}
+.boxbig .boxd5 .c4 {
+	position: absolute;
+	left: 120px;
+	top: 600px;
+}
+.boxbig .boxd5 .smking {
+	height: 200px;
+	width: 90px;
+	position: absolute;
+	left: 200px;
+	top: 0px;
+	
+}
+.boxbig .boxd5 .smking #smj1{
+	-webkit-animation: scaleDraw4 3s ease-in-out infinite;
+}
+@keyframes scaleDraw4 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0);  /*开始为原始大小*/
+            }
+            100%{
+                transform: scale(1);
+            }
+}
+.boxbig .boxd5 .smking #smj2{
+	-webkit-animation: smj2 2s ease-in-out infinite;
+}
+
+@keyframes smj2 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0.3);  /*开始为原始大小*/
+            }
+            
+            100%{
+                transform: scale(1);
+            }
+}
+.boxbig .boxd5 .smking #smj3{
+	-webkit-animation: smj3 1s ease-in-out infinite;
+}
+
+@keyframes smj3 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0.5);  /*开始为原始大小*/
+            }
+            
+            100%{
+                transform: scale(1);
+            }
+
+}
+.boxbig .boxd5 .c11 {
+	background-image: url(../img/fy_Pp8.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height:227px;
+	width: 316px;
+	left: 150px;
+	top: 80px;
+	-webkit-animation:gifq1 0.8s steps(2) infinite;
+}
+@-webkit-keyframes gifq1{
+100%{
+	 background-position: -623px 0;
+
+	}	
+
+}
+.boxd5 .b12{
+	position: absolute;
+	height: 400px;
+	width: 100%;
+	left: 50px;
+	top: 300px;
+}
+.boxbig .boxd5 .chaxun {
+	position: absolute;
+	left: 110px;
+	bottom: 300px;
+}
+.boxbig .boxd5 .r2 {
+	position: absolute;
+	top: 5px;
+	right: 150px;
+}
+.boxbig .boxd5 .r3 {
+	position: absolute;
+	z-index: 3;
+	top: 0px;
+	right: 0px;
+}
+.boxbig .boxd5 .r4 {
+	position: absolute;
+	left: 0px;
+	bottom: 330px;
+}
+.boxbig .boxd5 .r5 {
+	position: absolute;
+	left: 30px;
+	bottom: 250px;
+}
+.boxbig .boxd5 .r6 {
+	position: absolute;
+	right: 30px;
+	bottom: 250px;
+}
+
+
+
+
+.boxbig .boxd5 .r1 {
+	position: absolute;
+	left: 0px;
+	top: 50px;
+}
+
+
+
+.boxd5 .b12 img{
+	margin-top:20px
+}
+@charset "utf-8";
+*{
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+}
+.boxbig {
+	width:100%;
+	height:100%;
+	background-size:cover;
+	background-size: 100% 100%;
+	background-image:url(../img/fy_indexBg.jpg);
+	position: absolute;
+	overflow:hidden;
+}
+.box {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-size: 100% 100%;
+	background-image: url(../img/fy_indexBg.jpg);
+	position: absolute;
+	overflow: hidden;
+	display: ;
+}
+#bbb3{
+	display:block;
+	position:relative;
+	}
+.box .top {
+	position: relative;
+	height: 65%;
+	width: 100%;
+}
+.box .top .butt {
+	position: relative;
+}
+.box .butt .bt2 {
+	position: absolute;
+	height: 322px;
+	width: 640px;
+	left: 0px;
+	bottom: 0px;
+	z-index: 99;
+}
+.box .butt .bt3 {
+}
+
+.box .butt .bt2 .bt22 {
+	position: absolute;
+}
+
+.box .butt .ruy {
+	
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 999;
+	width: 257px;
+	height: 437px;
+	background:url(../img/fy_Pp0.png);
+	-webkit-animation:yi 1s steps(2) infinite;
+	background-repeat: no-repeat;
+}
+
+	
+
+@-webkit-keyframes yi{
+100%{
+	 background-position: -514px 0;
+
+	}	
+
+}
+
+.box .butt .bt3 {
+	position: absolute;
+	height: 194px;
+	width: 640px;
+	bottom: 350px;
+	left: 80px;
+}
+.box .butt .kshi img {
+
+}
+.box .butt .kshi {
+	position: absolute;
+	height: 110px;
+	width: 440px;
+	left: 90px;
+	bottom: 400px;
+}
+.box .butt .kashi1 {
+	position: absolute;
+	left: 350px;
+	bottom: 400px;
+}
+.box .box1 .bac {
+	position: absolute;
+	clip: rect(0px,auto,auto,0px);
+	right: -15px;
+	animation: 0.6s rotatefresh 1;
+}
+@keyframes rotatefresh {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(720deg);
+        transition-duration: 0.6s;
+        transition: 0.6s;
+    }
+}
+.box .box1 .bac1 {
+	position: absolute;
+	clip: rect(0px,auto,auto,0px);
+	z-index: 1;
+	left: 20px;
+}
+.box .box1 .bac11 {
+	position: absolute;
+	clip: rect(0px,auto,auto,0px);
+	bottom: 0px;
+	z-index: 1;
+	left: 50px;
+	
+}
+.box .box1 .bac11,.bac3,#i9,.kashi1,.boxbig #bbb3 .boxa22{
+	  -webkit-animation: scaleDraw 0.5s ease-in-out infinite;
+}
+.bt3,#pic2{
+	-webkit-animation: go 1s ease-in-out alternate infinite;
+   -moz-animation: go 1s ease-in-out alternate infinite;
+   animation: go 1s ease-in-out alternate infinite;
+}
+@keyframes go {
+  
+    100% {
+       -webkit-transform: rotate(5deg);
+       -webkit-transform-origin: top center;
+       -moz-transform: rotate(5deg);
+       -moz-transform-origin: top center;
+       transform: rotate(5deg);
+       transform-origin: top center;
+    }
+}
+
+@keyframes scaleDraw {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(1);  /*开始为原始大小*/
+            }
+            25%{
+                transform: scale(0.4); /*放大1.1倍*/
+            }
+            50%{
+                transform: scale(1);
+            }
+            75%{
+                transform: scale(0.4);
+            }
+        }
+.box #i3 #pic17 {
+	top: 20px;
+}
+
+.box .box1 #i9 {
+	left: 230px;
+	height: 40px;
+	width: 100px;
+	top: 10px;
+}
+.box #i2 {
+	margin-left: 20px;
+}
+.box #i3 {
+	margin-right: 30px;
+}
+.box #i4 {
+	margin-right: 30px;
+}
+.box .box1 .bac2 {
+	position: absolute;
+	clip: rect(0px,auto,auto,0px);
+	right: 95px;
+}
+.box #i4 {
+	margin-left: 35px;
+}
+.box .box1 #pic2 {
+	height: 80px;
+	width: 80px;
+}
+
+
+.box .box1 .bac3 {
+	position: absolute;
+	clip: rect(auto,auto,auto,auto);
+	right: 0px;
+}
+
+
+.box .box1 {
+	height: 78px;
+	width: 496px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+}
+.boxbig #bbb3 .boxa1 {
+	position: absolute;
+	top: 30px;
+	left: 50px;
+}
+.boxbig #bbb3 .boxa5 {
+	position: absolute;
+	top: 500px;
+	left: 0px;
+	right: 0px;
+}
+.boxbig #bbb3 .boxa4 {
+	position: absolute;
+	left: 0px;
+	top: 360px;
+	right: 0px;
+}
+
+.boxbig #bbb3 .boxa3 {
+	position: absolute;
+	left: 50px;
+	top: 214px;
+}
+.boxbig #bbb3 .boxa8 {
+	position: absolute;
+	left: 100px;
+    bottom: 300px;
+}
+.boxbig #bbb3 .boxa9 {
+	position: absolute;
+	left: 150px;
+    bottom: 180px;
+}
+.boxbig #bbb3 .boxa10 {
+	position: absolute;
+	left: 140px;
+    bottom: 100px;
+	
+}
+
+
+.boxbig #bbb3 .boxa2 {
+	position: absolute;
+	top: 10px;
+	left: 300px;
+}
+.boxbig #bbb3 .boxa22 {
+	position: absolute;
+	top: 30px;
+	left: 230px;
+}
+.boxbig #bbb3 .boxa7 {
+	position: absolute;
+	height: 474px;
+	width: 332px;
+	bottom: 0px;
+	right: 0px;
+	background-image:url(../img/fy_Pp3.png);
+	-webkit-animation:gif 1s steps(2) infinite;
+	background-repeat: no-repeat;
+}
+@-webkit-keyframes 
+gif{
+100%{
+	 background-position: -664px 0;
+
+	}	
+
+}
+.boxbig #bbb3 .boxatext {
+	position: absolute;
+	height: 50px;
+	width: 50%;
+	left: 150px;
+	top: 250px;
+}
+.boxbig #bbb3 .boxc1 {
+	background-image: url(../img/fy_Pp.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 434px;
+	width: 320px;
+	left: 0px;
+	bottom: 0px;
+	-webkit-animation:gif 1s steps(2) infinite;
+}
+.boxbig #bbb3 #imgs1 ,.boxbig #bbb3 #imgs2{
+ -webkit-animation: scaleDraw1 1s ease-in-out ;
+ }
+@keyframes scaleDraw1 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0.5);  /*开始为原始大小*/
+            }
+           
+            100%{
+                transform: scale(1);
+            }
+        }
+
+
+
+.boxbig #bbb3 .boxatext #test {
+	height: 50px;
+	width: 100%;
+	font-size: 35px;
+	color: #000;
+	background-color: #FFF;
+	border:none;
+}
+.boxbig #bbb3 .boxc2 , {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	
+}
+
+.boxbig #bbb3 .boxc3 {
+	position: absolute;
+	right: 0px;
+	bottom: 80px;
+}
+
+
+
+
+
+
+.boxbig #bbb3 .boxa6 {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+.boxbig #bbb3 .boxsss ,.boxd5 .boxsss{
+	position: absolute;
+	height: 230px;
+	width: 300px;
+	bottom: 200px;
+	right: 50px;
+	-webkit-animation: scaleDraw2 5s ease-in-out ;
+}
+@keyframes 
+scaleDraw2 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0);  /*开始为原始大小*/
+            }
+           
+            100%{
+                transform: scale(1);
+            }
+        }
+
+
+ .boxa1,.boxa2,.boxa8,.boxa9,.boxa10,.boxa6,.boxa4,.boxa5,.bf1,.bf3,.bf4,.bf5,.miuxi{
+	-webkit-animation: go 1s ease-in-out alternate infinite;
+   -moz-animation: go 1s ease-in-out alternate infinite;
+   animation: bai 0.5s ease-in-out alternate infinite;
+}
+@keyframes bai {
+  
+    100% {
+       -webkit-transform: rotate(5deg);
+       -webkit-transform-origin: top center;
+       -moz-transform: rotate(5deg);
+       -moz-transform-origin: top center;
+       transform: rotate(5deg);
+       transform-origin: top center;
+    }
+}
+.boxbig #bbb3 .boxc11 {
+	background-image: url(../img/fy_Pp4.png);
+	position: absolute;
+	height: 424px;
+	width: 402px;
+	left: 0px;
+	bottom: 0px;
+	background-repeat: no-repeat;
+	-webkit-animation:gif1 1s steps(2) infinite;
+}
+@-webkit-keyframes 
+gif1{
+100%{
+	 background-position: -804px 0;
+
+	}	
+
+}
+.boxbig #bbb3 .boxsss11 {
+	position: absolute;
+	height: 112px;
+	width: 154px;
+	bottom: 180px;
+	right: 35px;
+	-webkit-animation: scaleDraw3 0.2s ease-in-out infinite;
+}
+.boxbig #bbb3 .boxsss112 {
+	position: absolute;
+	height: 112px;
+	width: 154px;
+	bottom: 180px;
+	right: 75px;
+	-webkit-animation: scaleDraw3 0.2s ease-in-out infinite;
+}
+.boxbig #bbb3 .boxsss113 {
+	position: absolute;
+	height: 112px;
+	width: 154px;
+	bottom: 180px;
+	right: 50px;
+	-webkit-animation: scaleDraw3 0.2s ease-in-out infinite;
+}
+@keyframes scaleDraw3 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0.5);  /*开始为原始大小*/
+            }
+           
+            100%{
+                transform: scale(1);
+            }
+        }
+.boxd5 {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.boxd5 .bf1 {
+	position: absolute;
+	left: 200px;
+	top: 30px;
+}
+.boxd5 .bf2 {
+	position: absolute;
+	top: 200px;
+	right: 30px;
+}
+.boxd5 .bf7 {
+	background-image: url(../img/fy_Pp5.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 422px;
+	width: 307px;
+	bottom: 0px;
+	left: 167px;
+	-webkit-animation:gifq 0.01s steps(2) infinite;
+}
+@-webkit-keyframes 
+
+gifq{
+100%{
+	 background-position: -614px 0;
+
+	}	
+
+}
+.boxd5 .bf5 {
+	position: absolute;
+	right: 0px;
+	bottom: 300px;
+}
+.boxd5 .bf6 {
+	position: absolute;
+	left: 100px;
+	bottom: 390px;
+}
+.boxd5 .bf3 {
+	position: absolute;
+	left: 0px;
+	top: 400px;
+}
+.boxd5 .bf2text {
+	height: 60px;
+	width: 50%;
+	position: absolute;
+	left: 120px;
+	top: 250px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.boxd5 .miuxi {
+	position: absolute;
+	top: 100px;
+	right: 250px;
+}
+
+.boxd5 .bf2text #test1 {
+	height: 60px;
+	width: 100%;
+	font-size: 40px;
+	border:none;
+}
+
+
+.boxd5 .bf4 {
+	position: absolute;
+	left: 0px;
+	top: 542px;
+}
+.boxd5 .bf71 {
+	position: absolute;
+	height: 434px;
+	width: 340px;
+	left: 0px;
+	bottom: 0px;
+	z-index: 999;
+	background-image: url(../img/fy_Pp6.png);
+	background-repeat: no-repeat;
+	-webkit-animation:gifq 0.8s steps(2) infinite;
+}
+@-webkit-keyframes 
+gifq{
+100%{
+	 background-position: -680px 0;
+
+	}	
+
+}
+.boxbig .boxd5 .boxsss .zxq {
+	z-index: 99;
+	position: absolute;
+	bottom: 60px;
+	left: 25px;
+}
+.boxbig .boxd5 .c1 {
+	background-image: url(../img/fy_Pp7.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 321px;
+	width: 340px;
+	left: 150px;
+	top: 80px;
+	-webkit-animation:gifq1 0.8s steps(2) infinite;
+}
+@-webkit-keyframes gifq1{
+100%{
+	 background-position: -680px 0;
+
+	}	
+
+}
+
+.boxbig .boxd5 .c2 {
+	position: absolute;
+	left: 20px;
+	top: 400px;
+}
+.boxbig .boxd5 .c3 {
+	position: absolute;
+	left: 02px;
+    top: 500px;
+}
+.boxbig .boxd5 .c4 {
+	position: absolute;
+	left: 120px;
+	top: 600px;
+}
+.boxbig .boxd5 .smking {
+	height: 200px;
+	width: 90px;
+	position: absolute;
+	left: 200px;
+	top: 0px;
+	
+}
+.boxbig .boxd5 .smking #smj1{
+	-webkit-animation: scaleDraw4 3s ease-in-out infinite;
+}
+@keyframes scaleDraw4 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0);  /*开始为原始大小*/
+            }
+            100%{
+                transform: scale(1);
+            }
+}
+.boxbig .boxd5 .smking #smj2{
+	-webkit-animation: smj2 2s ease-in-out infinite;
+}
+
+@keyframes smj2 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0.3);  /*开始为原始大小*/
+            }
+            
+            100%{
+                transform: scale(1);
+            }
+}
+.boxbig .boxd5 .smking #smj3{
+	-webkit-animation: smj3 1s ease-in-out infinite;
+}
+
+@keyframes smj3 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0.5);  /*开始为原始大小*/
+            }
+            
+            100%{
+                transform: scale(1);
+            }
+
+}
+.boxbig .boxd5 .c11 {
+	background-image: url(../img/fy_Pp8.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height:227px;
+	width: 316px;
+	left: 150px;
+	top: 80px;
+	-webkit-animation:gifq1 0.8s steps(2) infinite;
+}
+@-webkit-keyframes gifq1{
+100%{
+	 background-position: -623px 0;
+
+	}	
+
+}
+.boxd5 .b12{
+	position: absolute;
+	height: 400px;
+	width: 100%;
+	left: 50px;
+	top: 300px;
+}
+.boxbig .boxd5 .chaxun {
+	position: absolute;
+	left: 110px;
+	bottom: 300px;
+}
+.boxbig .boxd5 .r2 {
+	position: absolute;
+	top: 5px;
+	right: 150px;
+}
+.boxbig .boxd5 .r3 {
+	position: absolute;
+	z-index: 3;
+	top: 0px;
+	right: 0px;
+}
+.boxbig .boxd5 .r4 {
+	position: absolute;
+	left: 0px;
+	bottom: 330px;
+}
+.boxbig .boxd5 .r5 {
+	position: absolute;
+	left: 30px;
+	bottom: 250px;
+}
+.boxbig .boxd5 .r6 {
+	position: absolute;
+	right: 30px;
+	bottom: 250px;
+}
+
+
+
+
+.boxbig .boxd5 .r1 {
+	position: absolute;
+	left: 0px;
+	top: 50px;
+}
+
+
+
+.boxd5 .b12 img{
+	margin-top:20px
+}
+@charset "utf-8";
+*{
+	padding:0px;
+	margin:0px;
+	overflow:hidden;
+}
+.boxbig {
+	width:100%;
+	height:100%;
+	background-size:cover;
+	background-size: 100% 100%;
+	background-image:url(../img/fy_indexBg.jpg);
+	position: absolute;
+	overflow:hidden;
+}
+.box {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-size: 100% 100%;
+	background-image: url(../img/fy_indexBg.jpg);
+	position: absolute;
+	overflow: hidden;
+	display: ;
+}
+#bbb4{
+	display:block;
+	position:relative;
+	}
+.box .top {
+	position: relative;
+	height: 65%;
+	width: 100%;
+}
+.box .top .butt {
+	position: relative;
+}
+.box .butt .bt2 {
+	position: absolute;
+	height: 322px;
+	width: 640px;
+	left: 0px;
+	bottom: 0px;
+	z-index: 99;
+}
+.box .butt .bt3 {
+}
+
+.box .butt .bt2 .bt22 {
+	position: absolute;
+}
+
+.box .butt .ruy {
+	
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 999;
+	width: 257px;
+	height: 437px;
+	background:url(../img/fy_Pp0.png);
+	-webkit-animation:yi 1s steps(2) infinite;
+	background-repeat: no-repeat;
+}
+
+	
+
+@-webkit-keyframes yi{
+100%{
+	 background-position: -514px 0;
+
+	}	
+
+}
+
+.box .butt .bt3 {
+	position: absolute;
+	height: 194px;
+	width: 640px;
+	bottom: 350px;
+	left: 80px;
+}
+.box .butt .kshi img {
+
+}
+.box .butt .kshi {
+	position: absolute;
+	height: 110px;
+	width: 440px;
+	left: 90px;
+	bottom: 400px;
+}
+.box .butt .kashi1 {
+	position: absolute;
+	left: 350px;
+	bottom: 400px;
+}
+.box .box1 .bac {
+	position: absolute;
+	clip: rect(0px,auto,auto,0px);
+	right: -15px;
+	animation: 0.6s rotatefresh 1;
+}
+@keyframes rotatefresh {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(720deg);
+        transition-duration: 0.6s;
+        transition: 0.6s;
+    }
+}
+.box .box1 .bac1 {
+	position: absolute;
+	clip: rect(0px,auto,auto,0px);
+	z-index: 1;
+	left: 20px;
+}
+.box .box1 .bac11 {
+	position: absolute;
+	clip: rect(0px,auto,auto,0px);
+	bottom: 0px;
+	z-index: 1;
+	left: 50px;
+	
+}
+.box .box1 .bac11,.bac3,#i9,.kashi1,.boxbig #bbb4 .boxa22{
+	  -webkit-animation: scaleDraw 0.5s ease-in-out infinite;
+}
+.bt3,#pic2{
+	-webkit-animation: go 1s ease-in-out alternate infinite;
+   -moz-animation: go 1s ease-in-out alternate infinite;
+   animation: go 1s ease-in-out alternate infinite;
+}
+@keyframes go {
+  
+    100% {
+       -webkit-transform: rotate(5deg);
+       -webkit-transform-origin: top center;
+       -moz-transform: rotate(5deg);
+       -moz-transform-origin: top center;
+       transform: rotate(5deg);
+       transform-origin: top center;
+    }
+}
+
+@keyframes scaleDraw {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(1);  /*开始为原始大小*/
+            }
+            25%{
+                transform: scale(0.4); /*放大1.1倍*/
+            }
+            50%{
+                transform: scale(1);
+            }
+            75%{
+                transform: scale(0.4);
+            }
+        }
+.box #i3 #pic17 {
+	top: 20px;
+}
+
+.box .box1 #i9 {
+	left: 230px;
+	height: 40px;
+	width: 100px;
+	top: 10px;
+}
+.box #i2 {
+	margin-left: 20px;
+}
+.box #i3 {
+	margin-right: 30px;
+}
+.box #i4 {
+	margin-right: 30px;
+}
+.box .box1 .bac2 {
+	position: absolute;
+	clip: rect(0px,auto,auto,0px);
+	right: 95px;
+}
+.box #i4 {
+	margin-left: 35px;
+}
+.box .box1 #pic2 {
+	height: 80px;
+	width: 80px;
+}
+
+
+.box .box1 .bac3 {
+	position: absolute;
+	clip: rect(auto,auto,auto,auto);
+	right: 0px;
+}
+
+
+.box .box1 {
+	height: 78px;
+	width: 496px;
+	margin-top: 20px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	position: relative;
+}
+.boxbig #bbb4 .boxa1 {
+	position: absolute;
+	top: 30px;
+	left: 50px;
+}
+.boxbig .peijiao {
+	color: #F00;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	height: 299px;
+	width: 33px;
+	z-index: 9;
+}
+.boxbig .peijiao1 {
+	position: absolute;
+	height: 299px;
+	width: 33px;
+	bottom: 0px;
+	right: 0px;
+	z-index: 999999999999;
+	color: #000;
+}
+
+
+.boxbig #bbb4 .boxa5 {
+	position: absolute;
+	top: 500px;
+	left: 0px;
+	right: 0px;
+}
+.boxbig #bbb4 .boxa4 {
+	position: absolute;
+	left: 0px;
+	top: 360px;
+	right: 0px;
+}
+
+.boxbig #bbb4 .boxa3 {
+	position: absolute;
+	left: 50px;
+	top: 214px;
+}
+.boxbig #bbb4 .boxa8 {
+	position: absolute;
+	left: 100px;
+    bottom: 300px;
+}
+.boxbig #bbb4 .boxa9 {
+	position: absolute;
+	left: 150px;
+    bottom: 180px;
+}
+.boxbig #bbb4 .boxa10 {
+	position: absolute;
+	left: 140px;
+    bottom: 100px;
+	
+}
+
+
+.boxbig #bbb4 .boxa2 {
+	position: absolute;
+	top: 10px;
+	left: 300px;
+}
+.boxbig #bbb4 .boxa22 {
+	position: absolute;
+	top: 30px;
+	left: 230px;
+}
+.boxbig #bbb4 .boxa7 {
+	position: absolute;
+	height: 474px;
+	width: 332px;
+	bottom: 0px;
+	right: 0px;
+	background-image:url(../img/fy_Pp3.png);
+	-webkit-animation:gif 1s steps(2) infinite;
+	background-repeat: no-repeat;
+}
+@-webkit-keyframes 
+gif{
+100%{
+	 background-position: -664px 0;
+
+	}	
+
+}
+.boxbig #bbb4 .boxatext {
+	position: absolute;
+	height: 50px;
+	width: 50%;
+	left: 150px;
+	top: 250px;
+}
+.boxbig #bbb4 .boxc1 {
+	background-image: url(../img/fy_Pp.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 434px;
+	width: 320px;
+	left: 0px;
+	bottom: 0px;
+	-webkit-animation:gif 1s steps(2) infinite;
+}
+.boxbig #bbb4 #imgs1 ,.boxbig #bbb4 #imgs2{
+ -webkit-animation: scaleDraw1 1s ease-in-out ;
+ }
+@keyframes scaleDraw1 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0.5);  /*开始为原始大小*/
+            }
+           
+            100%{
+                transform: scale(1);
+            }
+        }
+
+
+
+.boxbig #bbb4 .boxatext #test {
+	height: 50px;
+	width: 100%;
+	font-size: 35px;
+	color: #000;
+	background-color: #FFF;
+	border:none;
+}
+.boxbig #bbb4 .boxc2 , {
+	position: absolute;
+	right: 0px;
+	bottom: 0px;
+	
+}
+
+.boxbig #bbb4 .boxc3 {
+	position: absolute;
+	right: 0px;
+	bottom: 80px;
+}
+
+
+
+
+
+
+.boxbig #bbb4 .boxa6 {
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+}
+.boxbig #bbb4 .boxsss ,.boxd5 .boxsss{
+	position: absolute;
+	height: 230px;
+	width: 300px;
+	bottom: 200px;
+	right: 50px;
+	-webkit-animation: scaleDraw2 5s ease-in-out ;
+}
+@keyframes 
+scaleDraw2 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0);  /*开始为原始大小*/
+            }
+           
+            100%{
+                transform: scale(1);
+            }
+        }
+
+
+ .boxa1,.boxa2,.boxa8,.boxa9,.boxa10,.boxa6,.boxa4,.boxa5,.bf1,.bf3,.bf4,.bf5,.miuxi{
+	-webkit-animation: go 1s ease-in-out alternate infinite;
+   -moz-animation: go 1s ease-in-out alternate infinite;
+   animation: bai 0.5s ease-in-out alternate infinite;
+}
+@keyframes bai {
+  
+    100% {
+       -webkit-transform: rotate(5deg);
+       -webkit-transform-origin: top center;
+       -moz-transform: rotate(5deg);
+       -moz-transform-origin: top center;
+       transform: rotate(5deg);
+       transform-origin: top center;
+    }
+}
+.boxbig #bbb4 .boxc11 {
+	background-image: url(../img/fy_Pp4.png);
+	position: absolute;
+	height: 424px;
+	width: 402px;
+	left: 0px;
+	bottom: 0px;
+	background-repeat: no-repeat;
+	-webkit-animation:gif1 1s steps(2) infinite;
+}
+@-webkit-keyframes 
+gif1{
+100%{
+	 background-position: -804px 0;
+
+	}	
+
+}
+.boxbig #bbb4 .boxsss11 {
+	position: absolute;
+	height: 112px;
+	width: 154px;
+	bottom: 180px;
+	right: 35px;
+	-webkit-animation: scaleDraw3 0.2s ease-in-out infinite;
+}
+.boxbig #bbb4 .boxsss112 {
+	position: absolute;
+	height: 112px;
+	width: 154px;
+	bottom: 180px;
+	right: 75px;
+	-webkit-animation: scaleDraw3 0.2s ease-in-out infinite;
+}
+.boxbig #bbb4 .boxsss113 {
+	position: absolute;
+	height: 112px;
+	width: 154px;
+	bottom: 180px;
+	right: 50px;
+	-webkit-animation: scaleDraw3 0.2s ease-in-out infinite;
+}
+@keyframes scaleDraw3 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0.5);  /*开始为原始大小*/
+            }
+           
+            100%{
+                transform: scale(1);
+            }
+        }
+.boxd5 {
+	position: absolute;
+	height: 100%;
+	width: 100%;
+}
+.boxd5 .bf1 {
+	position: absolute;
+	left: 200px;
+	top: 30px;
+}
+.boxd5 .bf2 {
+	position: absolute;
+	top: 200px;
+	right: 30px;
+}
+.boxd5 .bf7 {
+	background-image: url(../img/fy_Pp5.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 422px;
+	width: 307px;
+	bottom: 0px;
+	left: 167px;
+	-webkit-animation:gifq 0.01s steps(2) infinite;
+}
+@-webkit-keyframes 
+
+gifq{
+100%{
+	 background-position: -614px 0;
+
+	}	
+
+}
+.boxd5 .bf5 {
+	position: absolute;
+	right: 0px;
+	bottom: 300px;
+}
+.boxd5 .bf6 {
+	position: absolute;
+	left: 100px;
+	bottom: 390px;
+}
+.boxd5 .bf3 {
+	position: absolute;
+	left: 0px;
+	top: 400px;
+}
+.boxd5 .bf2text {
+	height: 60px;
+	width: 50%;
+	position: absolute;
+	left: 120px;
+	top: 250px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+}
+.boxd5 .miuxi {
+	position: absolute;
+	top: 100px;
+	right: 250px;
+}
+
+.boxd5 .bf2text #test1 {
+	height: 60px;
+	width: 100%;
+	font-size: 40px;
+	border:none;
+}
+
+
+.boxd5 .bf4 {
+	position: absolute;
+	left: 0px;
+	top: 542px;
+}
+.boxd5 .bf71 {
+	position: absolute;
+	height: 434px;
+	width: 340px;
+	left: 0px;
+	bottom: 0px;
+	z-index: 999;
+	background-image: url(../img/fy_Pp6.png);
+	background-repeat: no-repeat;
+	-webkit-animation:gifq 0.8s steps(2) infinite;
+}
+@-webkit-keyframes 
+gifq{
+100%{
+	 background-position: -680px 0;
+
+	}	
+
+}
+.boxbig .boxd5 .boxsss .zxq {
+	z-index: 99;
+	position: absolute;
+	bottom: 60px;
+	left: 25px;
+}
+.boxbig .boxd5 .c1 {
+	background-image: url(../img/fy_Pp7.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height: 321px;
+	width: 340px;
+	left: 150px;
+	top: 80px;
+	-webkit-animation:gifq1 0.8s steps(2) infinite;
+}
+@-webkit-keyframes gifq1{
+100%{
+	 background-position: -680px 0;
+
+	}	
+
+}
+
+.boxbig .boxd5 .c2 {
+	position: absolute;
+	left: 20px;
+	top: 400px;
+}
+.boxbig .boxd5 .c3 {
+	position: absolute;
+	left: 02px;
+    top: 500px;
+}
+.boxbig .boxd5 .c4 {
+	position: absolute;
+	left: 120px;
+	top: 600px;
+}
+.boxbig .boxd5 .smking {
+	height: 200px;
+	width: 90px;
+	position: absolute;
+	left: 200px;
+	top: 0px;
+	
+}
+.boxbig .boxd5 .smking #smj1{
+	-webkit-animation: scaleDraw4 3s ease-in-out infinite;
+}
+@keyframes scaleDraw4 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0);  /*开始为原始大小*/
+            }
+            100%{
+                transform: scale(1);
+            }
+}
+.boxbig .boxd5 .smking #smj2{
+	-webkit-animation: smj2 2s ease-in-out infinite;
+}
+
+@keyframes smj2 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0.3);  /*开始为原始大小*/
+            }
+            
+            100%{
+                transform: scale(1);
+            }
+}
+.boxbig .boxd5 .smking #smj3{
+	-webkit-animation: smj3 1s ease-in-out infinite;
+}
+
+@keyframes smj3 {  /*定义关键帧、scaleDrew是需要绑定到选择器的关键帧名称*/
+            0%{
+                transform: scale(0.5);  /*开始为原始大小*/
+            }
+            
+            100%{
+                transform: scale(1);
+            }
+
+}
+.boxbig .boxd5 .c11 {
+	background-image: url(../img/fy_Pp8.png);
+	background-repeat: no-repeat;
+	position: absolute;
+	height:227px;
+	width: 316px;
+	left: 150px;
+	top: 80px;
+	-webkit-animation:gifq1 0.8s steps(2) infinite;
+}
+@-webkit-keyframes gifq1{
+100%{
+	 background-position: -623px 0;
+
+	}	
+
+}
+.boxd5 .b12{
+	position: absolute;
+	height: 400px;
+	width: 100%;
+	left: 50px;
+	top: 300px;
+}
+.boxbig .boxd5 .chaxun {
+	position: absolute;
+	left: 110px;
+	bottom: 300px;
+}
+.boxbig .boxd5 .r2 {
+	position: absolute;
+	top: 5px;
+	right: 150px;
+}
+.boxbig .boxd5 .r3 {
+	position: absolute;
+	z-index: 3;
+	top: 0px;
+	right: 0px;
+}
+.boxbig .boxd5 .r4 {
+	position: absolute;
+	left: 0px;
+	bottom: 330px;
+}
+.boxbig .boxd5 .r5 {
+	position: absolute;
+	left: 30px;
+	bottom: 250px;
+}
+.boxbig .boxd5 .r6 {
+	position: absolute;
+	right: 30px;
+	bottom: 250px;
+}
+
+
+
+
+.boxbig .boxd5 .r1 {
+	position: absolute;
+	left: 0px;
+	top: 50px;
+}
+
+
+
+.boxd5 .b12 img{
+	margin-top:20px
+}
